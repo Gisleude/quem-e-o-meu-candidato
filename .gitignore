@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# source documents (not needed at runtime — see src/data/ for the
+# processed data actually used by the app)
+/CANDIDATOS-BR-*.xlsx
+/Planos de Governo/
+
+# local Claude Code session config
+/.claude/
