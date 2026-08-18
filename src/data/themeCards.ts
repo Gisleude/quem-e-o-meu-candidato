@@ -17,21 +17,24 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
   economia: [
     {
       id: "economia-1",
-      titulo: "Estado assume bancos e empresas estratégicas",
+      titulo:
+        "Estado assume o controle dos bancos e de empresas como Petrobras, Eletrobras e Vale",
       resumo:
         "Defendem que o governo assuma o controle dos bancos e de empresas consideradas estratégicas, como Petrobras, Eletrobras e Vale. Propõem cobrar mais impostos de quem ganha mais e das grandes fortunas, e rever ou suspender o pagamento da {{dívida pública|dinheiro que o governo deve a credores}}.",
       candidatos: ["edmilson-costa", "hertz-dias", "rui-costa-pimenta", "samara"],
     },
     {
       id: "economia-2",
-      titulo: "Ajuste nas contas públicas com apoio a pequenos negócios",
+      titulo:
+        "Ajustar as contas públicas aos poucos, sem cortes bruscos, e apoiar pequenos negócios com crédito",
       resumo:
         "Defendem controlar os gastos do governo aos poucos, sem cortes bruscos, para reduzir a dívida pública e os juros. Também propõem mais crédito, regras mais simples e apoio a pequenas empresas e empreendedores.",
       candidatos: ["augusto-cury", "ronaldo-caiado", "clariana-barao"],
     },
     {
       id: "economia-3",
-      titulo: "Corte de gastos e menos impostos sobre o trabalho",
+      titulo:
+        "Cortar gastos do governo e reduzir impostos para baratear a contratação de trabalhadores",
       resumo:
         "Defendem cortar os gastos do governo de forma mais rápida, reduzir impostos e tornar as regras trabalhistas mais flexíveis, com o objetivo de baratear a contratação de trabalhadores e estimular o crescimento da economia.",
       candidatos: ["renan-santos", "zema", "flavio-bolsonaro"],
@@ -39,7 +42,7 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
     {
       id: "economia-4",
       titulo:
-        "Manter as {{regras fiscais|regras que controlam os gastos do governo}} atuais e apoiar a indústria",
+        "Manter as {{regras fiscais|regras que controlam os gastos do governo}} atuais, baixar os juros aos poucos e apoiar a indústria",
       resumo:
         "Quer manter as regras fiscais atuais, baixar a taxa de juros aos poucos mantendo a inflação sob controle, e continuar a reforma tributária em andamento. Propõe financiar indústrias importantes e ampliar o crédito para micro e pequenas empresas.",
       candidatos: ["lula"],
@@ -56,21 +59,24 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
   seguranca: [
     {
       id: "seguranca-1",
-      titulo: "Forças Armadas e penas mais duras contra facções",
+      titulo:
+        "Usar as Forças Armadas contra o crime organizado e aplicar penas mais duras",
       resumo:
         "Defendem tratar as facções criminosas como organizações terroristas, usar as Forças Armadas junto com a polícia para retomar áreas dominadas pelo crime, construir presídios de segurança máxima e reduzir para 16 anos a idade em que alguém pode ser julgado como adulto em crimes graves.",
       candidatos: ["flavio-bolsonaro", "renan-santos", "ronaldo-caiado", "zema"],
     },
     {
       id: "seguranca-2",
-      titulo: "Unir dados das polícias e atacar o dinheiro do crime",
+      titulo:
+        "Unir os dados das polícias e investigar e bloquear o dinheiro do crime organizado",
       resumo:
         "Defendem integrar as diferentes polícias e órgãos de inteligência em um sistema único que compartilha informações, usar tecnologia como inteligência artificial e monitoramento por satélite para vigiar o crime organizado, e investigar e bloquear o dinheiro das facções.",
       candidatos: ["augusto-cury", "lula", "clariana-barao", "wilson-grassi"],
     },
     {
       id: "seguranca-3",
-      titulo: "Tirar o caráter militar da polícia e tratar drogas como saúde",
+      titulo:
+        "Transformar a polícia em uma força civil e tratar o uso de drogas como problema de saúde",
       resumo:
         "Defendem transformar as polícias em uma estrutura civil única, sem caráter militar, e tratar o uso de drogas principalmente como um problema de saúde pública, reduzindo a repressão penal nessa área.",
       candidatos: ["edmilson-costa", "hertz-dias", "samara"],
@@ -78,7 +84,7 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
     {
       id: "seguranca-4",
       titulo:
-        "Fim da Polícia Militar e {{autodefesa popular|grupos armados formados pela própria população para se proteger}}",
+        "Acabar com a Polícia Militar e criar grupos de {{autodefesa popular|grupos armados formados pela própria população para se proteger}}",
       resumo:
         "Propõe acabar com a Polícia Militar e outras estruturas vistas como forças de repressão do Estado. No lugar delas, defende comitês de autodefesa formados por trabalhadores da cidade, do campo e por comunidades indígenas, com direito de se armarem.",
       candidatos: ["rui-costa-pimenta"],
@@ -87,28 +93,32 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
   educacao: [
     {
       id: "educacao-1",
-      titulo: "Educação pública e gratuita, sem parcerias privadas",
+      titulo:
+        "Tornar toda a educação pública e gratuita, sem parcerias com empresas privadas",
       resumo:
         "Defendem que toda a educação, da creche à pós-graduação, seja pública e gratuita, encerrando parcerias com empresas privadas e, em alguns casos, transformando escolas e faculdades particulares em públicas. Também propõem mais vagas nas redes públicas e melhores salários para professores.",
       candidatos: ["edmilson-costa", "hertz-dias", "rui-costa-pimenta", "samara"],
     },
     {
       id: "educacao-2",
-      titulo: "Alfabetização na idade certa e mais valorização dos professores",
+      titulo:
+        "Garantir que as crianças aprendam a ler até os 7 ou 8 anos, e valorizar mais os professores",
       resumo:
         "Priorizam garantir que todas as crianças aprendam a ler na idade certa, com aulas de reforço e avaliações para identificar dificuldades. Também defendem melhorar a formação e o salário dos professores, e ampliar o ensino técnico e em tempo integral.",
       candidatos: ["clariana-barao", "augusto-cury", "lula", "ronaldo-caiado"],
     },
     {
       id: "educacao-3",
-      titulo: "Mais avaliação de desempenho e liberdade de escolha",
+      titulo:
+        "Avaliar professores pelo desempenho dos alunos e dar às famílias liberdade para escolher a escola",
       resumo:
         "Defendem ligar parte do financiamento das escolas a metas de aprendizagem ou comportamento, avaliar professores pelo desempenho e ampliar o ensino técnico em parceria com empresas. Também querem dar mais liberdade para as famílias escolherem o modelo de ensino.",
       candidatos: ["flavio-bolsonaro", "renan-santos", "zema"],
     },
     {
       id: "educacao-4",
-      titulo: "Manter o programa de alfabetização e ampliar o ensino técnico",
+      titulo:
+        "Manter o programa nacional de alfabetização e ampliar as escolas técnicas federais",
       resumo:
         "Quer manter o programa federal de alfabetização na idade certa, com os resultados de cada escola divulgados ao público, e ampliar as escolas técnicas federais de acordo com a necessidade de cada região.",
       candidatos: ["wilson-grassi"],
@@ -145,14 +155,16 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
     },
     {
       id: "saude-5",
-      titulo: "Mais médicos, mais hospitais e sem limite de gastos",
+      titulo:
+        "Mais médicos e hospitais, com gastos do governo em saúde sem limite",
       resumo:
         "Propõe um plano emergencial para construir hospitais e postos de saúde, trazer de volta o programa Mais Médicos e reconhecer na hora diplomas de médicos formados no Brasil e no exterior, sem nenhum limite de gastos do governo com saúde.",
       candidatos: ["rui-costa-pimenta"],
     },
     {
       id: "saude-6",
-      titulo: "Vigilância de doenças de animais e fila única de cirurgias",
+      titulo:
+        "Vigiar doenças transmitidas por animais e criar uma fila pública única de cirurgias",
       resumo:
         "Propõe um programa nacional para vigiar doenças que passam de animais para pessoas, com veterinários trabalhando junto às equipes de saúde dos municípios. Também quer criar uma fila nacional única e pública para cada tipo de cirurgia, com prioridade decidida por critério médico.",
       candidatos: ["wilson-grassi"],
@@ -162,7 +174,7 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
     {
       id: "meio_ambiente-1",
       titulo:
-        "{{Reforma agrária|dar terras a famílias que não têm terra para trabalhar}} e mais {{terras demarcadas|áreas oficialmente reconhecidas como território indígena ou quilombola}}",
+        "Dar terras a famílias sem-terra e demarcar mais terras indígenas e quilombolas",
       resumo:
         "Defendem demarcar terras indígenas e quilombolas, fazer uma reforma agrária que dê terras a famílias sem-terra, e reduzir o apoio do governo ao grande agronegócio. Também querem proteger a Amazônia contra exploração ou controle estrangeiro, e restringir o uso de agrotóxicos.",
       candidatos: ["edmilson-costa", "hertz-dias", "rui-costa-pimenta", "samara"],
@@ -185,7 +197,7 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
     {
       id: "meio_ambiente-4",
       titulo:
-        "Mais {{segurança jurídica|regras claras e estáveis, que não mudam com frequência}} e tecnologia para o produtor rural",
+        "Dar regras mais claras e estáveis, e mais tecnologia, para quem produz no campo",
       resumo:
         "Defendem dar mais garantias legais a quem produz no campo, tornar o licenciamento ambiental mais rápido, e usar tecnologia para aumentar a produtividade agropecuária, como o rastreamento do gado e sistemas de monitoramento contra incêndios florestais.",
       candidatos: ["renan-santos", "wilson-grassi", "augusto-cury"],
@@ -195,7 +207,7 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
     {
       id: "assistencia_social-1",
       titulo:
-        "Manter os programas sociais, ligados a {{qualificação|cursos que preparam a pessoa para conseguir um emprego}}",
+        "Manter os programas sociais, ligados a cursos de qualificação profissional",
       resumo:
         "Defendem manter e ampliar os programas de transferência de renda, como o Bolsa Família, ligando-os a cursos de qualificação profissional e ajuda para conseguir emprego. Também querem fortalecer políticas para idosos, pessoas com deficiência e crianças.",
       candidatos: ["flavio-bolsonaro", "ronaldo-caiado", "lula"],
@@ -209,14 +221,16 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
     },
     {
       id: "assistencia_social-3",
-      titulo: "Renda mínima garantida e mais proteção social imediata",
+      titulo:
+        "Garantir renda de pelo menos um salário mínimo a quem está desempregado, com preços de alimentos controlados",
       resumo:
         "Defendem uma renda mínima garantida para quem está desempregado, aumentos emergenciais de salário, e mais investimento em proteção social, incluindo controle de preços de alimentos básicos e ampliação da aposentadoria pública.",
       candidatos: ["edmilson-costa", "hertz-dias", "rui-costa-pimenta"],
     },
     {
       id: "assistencia_social-4",
-      titulo: "Rede de proteção para mulheres, crianças e famílias vulneráveis",
+      titulo:
+        "Apoiar mulheres vítimas de violência e ampliar creches para famílias de baixa renda",
       resumo:
         "Propõem uma rede de apoio para mulheres em situação de violência, com atendimento e ajuda para ganhar independência financeira. Também defendem ampliar creches, o cuidado com crianças e o apoio a famílias em situação de pobreza.",
       candidatos: ["clariana-barao", "augusto-cury", "samara"],
@@ -225,21 +239,24 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
   gestao_publica: [
     {
       id: "gestao_publica-1",
-      titulo: "Gestão pública por resultados, com menos burocracia",
+      titulo:
+        "Definir metas de desempenho para cada área do governo e reduzir {{cargos de confiança|cargos escolhidos livremente pelo governo, sem concurso público}}",
       resumo:
         "Defendem tornar o governo mais eficiente e digital, com metas para cada área, avaliação de resultados e redução de ministérios ou cargos de confiança. Também propõem mais transparência nos gastos públicos e, em alguns casos, mudanças no sistema de governo.",
       candidatos: ["clariana-barao", "augusto-cury", "flavio-bolsonaro", "zema"],
     },
     {
       id: "gestao_publica-2",
-      titulo: "Mudanças profundas nas instituições e mais poder popular",
+      titulo:
+        "Reformular o STF e o Congresso, com eleição de juízes e revogação de mandatos pelo voto popular",
       resumo:
         "Defendem mudanças radicais nas instituições políticas, como o fim ou a reformulação do Supremo Tribunal Federal e do Congresso da forma como existem hoje. Propõem dar à população mais poder direto sobre as decisões do país, com eleição de juízes e revogação de mandatos por votação popular.",
       candidatos: ["edmilson-costa", "rui-costa-pimenta"],
     },
     {
       id: "gestao_publica-3",
-      titulo: "Mais transparência e combate à corrupção com dados",
+      titulo:
+        "Usar dados para aumentar a transparência do governo e combater a corrupção",
       resumo:
         "Defendem usar dados e tecnologia para identificar fraudes e corrupção em contratos públicos, dar transparência total às emendas parlamentares e ao financiamento de partidos, e cobrar dirigentes públicos por resultados.",
       candidatos: ["lula", "wilson-grassi", "samara", "ronaldo-caiado"],
@@ -254,7 +271,7 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
     {
       id: "gestao_publica-5",
       titulo:
-        "Fim das {{regras fiscais|regras que controlam os gastos do governo}} atuais e mais concursos públicos",
+        "Acabar com a {{Lei de Responsabilidade Fiscal|lei que limita os gastos do governo com pessoal e dívidas}} e revisar toda a {{dívida pública|dinheiro que o governo deve a credores}}",
       resumo:
         "Propõe investigar e punir a corrupção, tomando os bens conseguidos de forma ilegal. Quer substituir contratos de terceirização por concursos públicos. Defende também acabar com a {{Lei de Responsabilidade Fiscal|lei que limita os gastos do governo com pessoal e dívidas}} e revisar toda a dívida pública.",
       candidatos: ["hertz-dias"],
@@ -264,7 +281,7 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
     {
       id: "infraestrutura-1",
       titulo:
-        "Mais {{concessões|quando uma empresa privada administra um serviço público por contrato}} para rodovias, ferrovias e {{saneamento|água tratada e coleta de esgoto}}",
+        "Ampliar as {{concessões|quando uma empresa privada administra um serviço público por contrato}} privadas para rodovias, ferrovias e {{saneamento|água tratada e coleta de esgoto}}",
       resumo:
         "Defendem ampliar as concessões e parcerias com empresas privadas para construir e manter rodovias, ferrovias, portos e saneamento básico. Também querem regras estáveis para atrair investimento privado de longo prazo e ampliar o acesso à internet de qualidade.",
       candidatos: ["clariana-barao", "augusto-cury", "flavio-bolsonaro", "ronaldo-caiado", "zema"],
@@ -288,7 +305,7 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
     {
       id: "infraestrutura-4",
       titulo:
-        "Mais investimento em infraestrutura e {{regularização de favelas|dar documento oficial de posse do terreno para quem já mora lá}}",
+        "Construir mais ferrovias, ampliar portos e aeroportos no Norte e Nordeste, e {{regularizar favelas|dar documento oficial de posse do terreno para quem já mora lá}}",
       resumo:
         "Propõe aumentar bastante o investimento público em infraestrutura, com metas de construção de ferrovias e ampliação de portos e aeroportos no Norte e Nordeste. Propõe também um programa de dez anos para regularizar terrenos em favelas, dando título de propriedade aos moradores.",
       candidatos: ["renan-santos"],
