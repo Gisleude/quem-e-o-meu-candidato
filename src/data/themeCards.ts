@@ -197,7 +197,7 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
     {
       id: "meio_ambiente-4",
       titulo:
-        "Dar regras mais claras e estáveis, e mais tecnologia, para quem produz no campo",
+        "Dar mais garantias legais a quem produz no campo e usar tecnologia para aumentar a produção agropecuária",
       resumo:
         "Defendem dar mais garantias legais a quem produz no campo, tornar o licenciamento ambiental mais rápido, e usar tecnologia para aumentar a produtividade agropecuária, como o rastreamento do gado e sistemas de monitoramento contra incêndios florestais.",
       candidatos: ["renan-santos", "wilson-grassi", "augusto-cury"],
