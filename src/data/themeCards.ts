@@ -34,7 +34,7 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
     {
       id: "economia-3",
       titulo:
-        "Cortar gastos do governo e reduzir impostos para baratear a contratação de trabalhadores",
+        "{{Cortar gastos do governo|reduzir o crescimento dos gastos com aposentadorias, benefícios e a máquina pública}} e reduzir impostos para baratear a contratação de trabalhadores",
       resumo:
         "Defendem cortar os gastos do governo de forma mais rápida, reduzir impostos e tornar as regras trabalhistas mais flexíveis, com o objetivo de baratear a contratação de trabalhadores e estimular o crescimento da economia.",
       candidatos: ["renan-santos", "zema", "flavio-bolsonaro"],
