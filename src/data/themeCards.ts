@@ -156,7 +156,7 @@ export const THEME_CARDS: Record<ThemeKey, ThemeCard[]> = {
     {
       id: "saude-5",
       titulo:
-        "Mais médicos e hospitais, com gastos do governo em saúde sem limite",
+        "Mais médicos e hospitais, sem limites de gastos do governo em saúde",
       resumo:
         "Propõe um plano emergencial para construir hospitais e postos de saúde, trazer de volta o programa Mais Médicos e reconhecer na hora diplomas de médicos formados no Brasil e no exterior, sem nenhum limite de gastos do governo com saúde.",
       candidatos: ["rui-costa-pimenta"],
